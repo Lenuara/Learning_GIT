@@ -13,7 +13,7 @@
        * Checkbox "Add a README file"
     * Репозиторий [TXT](https://github.com/Lenuara/TXT) создан, его имя появилось в списке репозиториев 
 2. Клонировать репозиторий TXT на локальный компьютер.
-    `cd ~/LearningQA/LearnGIT/`/br
+    `cd ~/LearningQA/LearnGIT/`  
     `git clone https://github.com/Lenuara/TXT.git`
 3. Внутри локального TXT создать файл “new.txt”
     `cd TXT`

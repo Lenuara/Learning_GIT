@@ -16,7 +16,7 @@
     `cd ~/LearningQA/LearnGIT/`  
     `git clone https://github.com/Lenuara/TXT.git`
 3. Внутри локального TXT создать файл “new.txt”
-    `cd TXT`
+    `cd TXT`  
     `touch new.txt`
 4. Добавить файл под гит.
     `git add new.txt`
@@ -27,15 +27,15 @@
 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
     `vim new.txt`
 8. Отправить изменения на внешний репозиторий.  
-    `git add new.txt`
-    `git commit -m "Edited new.txt"`
+    `git add new.txt`  
+    `git commit -m "Edited new.txt"`  
     `git push`
 9. Создать файл preferences.txt
     `touch preferences.txt`
 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
     `vim preferences.txt`
 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT  
-    `touch sklls.txt`
+    `touch sklls.txt`  
     `vim sklls.txt`
 12. Сделать коммит в одну строку.
     `git commit -am "Add preferences.txt and sklls.txt"`
@@ -55,6 +55,7 @@
 
 
 ###**JSON**
+
 19. Создать внешний репозиторий c названием JSON.
 20. Клонировать репозиторий JSON на локальный компьютер.
 21. Внутри локального JSON создать файл “new.json”.

@@ -12,7 +12,7 @@
        * Radiobutton "Private"
        * Checkbox "Add a README file"
     * Репозиторий [TXT](https://github.com/Lenuara/TXT) создан, его имя появилось в списке репозиториев 
-2. Клонировать репозиторий TXT на локальный компьютер.
+2. Клонировать репозиторий TXT на локальный компьютер.  
     `cd ~/LearningQA/LearnGIT/`  
     `git clone https://github.com/Lenuara/TXT.git`
 3. Внутри локального TXT создать файл “new.txt”
@@ -41,11 +41,17 @@
     `git commit -am "Add preferences.txt and sklls.txt"`
 13. Отправить сразу 2 файла на внешний репозиторий.
     `git push`
-14. На веб интерфейсе создать файл bug_report.txt.
+14. На веб интерфейсе создать файл bug_report.txt.  
+   На вкладке репозитория нажать Add file -> Create new file -> Name your file... - bug_report.txt
 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+   Нажатием на кнопку Commit new file сохранить изменения
 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+   Зайти в файл bug_report.txt  
+   Нажать пиктограмму Edit this file
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-18. Синхронизировать внешний и локальный репозиторий TXT
+    Нажать Commit changes
+18. Синхронизировать внешний и локальный репозиторий TXT  
+   `git pull`
 
 
 ###**JSON**

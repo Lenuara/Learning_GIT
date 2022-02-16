@@ -1,8 +1,8 @@
 
 #GIT
 ## HomeWork № 1
-***
-### **TXT**
+
+### TXT
 1. Создать внешний репозиторий c названием TXT. 
     * Войти в свой профиль на https://github.com/ 
     * Зайти в раздел Repositories
@@ -11,15 +11,15 @@
        * Repository name "TXT"
        * Radiobutton "Private"
        * Checkbox "Add a README file"
-    * Репозиторий создан, его имя появилось в списке репозиториев
+    * Репозиторий [TXT](https://github.com/Lenuara/TXT) создан, его имя появилось в списке репозиториев 
 2. Клонировать репозиторий TXT на локальный компьютер.
-   <cd ~/LearningQA/LearnGIT/>
-   <git clone https://github.com/Lenuara/TXT.git>
+    cd ~/LearningQA/LearnGIT/
+    git clone https://github.com/Lenuara/TXT.git
 3. Внутри локального TXT создать файл “new.txt”
-   <cd TXT>
-   <touch new.txt>
+    cd TXT
+    touch new.txt
 4. Добавить файл под гит.
-   <git add new.txt>
+    git add new.txt
 5. Закоммитить файл.
 6. Отправить файл на внешний GitHub репозиторий.
 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.

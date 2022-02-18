@@ -90,7 +90,7 @@
 29. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
    `vim sklls.json` 
 30. Отправить сразу 2 файла на внешний репозиторий.  
-   `git add . && git commit -m "Add preferences.json and sklls.json"
+   `git add . && git commit -m "Add preferences.json and sklls.json"`  
    `git push`
 31. На веб интерфейсе создать файл bug_report.json.  
     На вкладке репозитория нажать Add file -> Create new file -> Name your file... -> bug_report.json

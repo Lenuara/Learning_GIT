@@ -65,7 +65,6 @@
        * Radiobutton "Private"
        * Checkbox "Add a README file"
     * Репозиторий [JSON](https://github.com/Lenuara/JSON) создан, его имя появилось в списке репозиториев 
-
 20. Клонировать репозиторий JSON на локальный компьютер.  
    `cd ~/LearningQA/LearnGIT/`  
    `git clone https://github.com/Lenuara/JSON.git`

@@ -37,7 +37,7 @@
 11. Создать файл sklls.txt, добавить информацию о скиллах которые будут изучены на курсе в формате TXT   
     `vim sklls.txt`
 12. Сделать коммит в одну строку.  
-    `git commit -am "Add preferences.txt and sklls.txt"`
+    `git add . && git commit -m "Add preferences.txt and sklls.txt"`
 13. Отправить сразу 2 файла на внешний репозиторий.  
     `git push`
 14. На веб интерфейсе создать файл bug_report.txt.  
@@ -91,7 +91,7 @@
 29. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  
    `vim sklls.json` 
 30. Отправить сразу 2 файла на внешний репозиторий.  
-   `git commit -am "Add preferences.json and sklls.json"`  
+   `git add . && git commit -m "Add preferences.json and sklls.json"`  
    `git push`
 31. На веб интерфейсе создать файл bug_report.json.  
     На вкладке репозитория нажать Add file -> Create new file -> Name your file... -> bug_report.json
@@ -141,7 +141,7 @@
 46. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
    `vim sklls.xml`
 47. Сделать коммит в одну строку.  
-  `git commit -am "Add preferences.xml and sklls.xml"` 
+  `git add . && git commit -m "Add preferences.xml and sklls.xml"` 
 48. Отправить сразу 2 файла на внешний репозиторий.  
    `git push`
 49. На веб интерфейсе создать файл bug_report.xml.  
